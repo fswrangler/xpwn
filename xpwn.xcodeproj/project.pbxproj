@@ -40,35 +40,35 @@
 		};
 		963C73DB13CF6784003C7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+			containerPortal = 963C73CF13CF6783003C7643 /* libpng */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC046055464E500DB518D;
 			remoteInfo = "libpng static (Mac OS X)";
 		};
 		963C73DD13CF6784003C7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+			containerPortal = 963C73CF13CF6783003C7643 /* libpng */;
 			proxyType = 2;
 			remoteGlobalIDString = 5BF3B08C122B1B6A0092AE4E;
 			remoteInfo = "libpng dynamic (Mac OS X)";
 		};
 		963C73DF13CF6784003C7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+			containerPortal = 963C73CF13CF6783003C7643 /* libpng */;
 			proxyType = 2;
 			remoteGlobalIDString = 5BF3B094122B1B9B0092AE4E;
 			remoteInfo = "libpng static (iOS)";
 		};
 		963C73E113CF6784003C7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+			containerPortal = 963C73CF13CF6783003C7643 /* libpng */;
 			proxyType = 2;
 			remoteGlobalIDString = 5BF3B10C122B1C070092AE4E;
 			remoteInfo = "libpng static (iOS Simulator & Device)";
 		};
 		963C73E413CF67D9003C7643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+			containerPortal = 963C73CF13CF6783003C7643 /* libpng */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC045055464E500DB518D;
 			remoteInfo = "libpng static (Mac OS X)";
@@ -165,7 +165,7 @@
 		963C73A113CF234A003C7643 /* xpwntool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xpwntool; sourceTree = BUILT_PRODUCTS_DIR; };
 		963C73AC13CF23CC003C7643 /* xpwntool.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = xpwntool.1; path = "ipsw-patch/xpwntool.1"; sourceTree = SOURCE_ROOT; };
 		963C73B113CF2832003C7643 /* libxpwn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxpwn.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		963C73CF13CF6783003C7643 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = deps/libpng/projects/xcode/libpng.xcodeproj; sourceTree = "<group>"; };
+		963C73CF13CF6783003C7643 /* libpng */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng; path = deps/libpng/projects/xcode/libpng.xcodeproj; sourceTree = "<group>"; };
 		963C73E713CF6BD9003C7643 /* ChangeLogUnzip */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLogUnzip; sourceTree = "<group>"; };
 		963C73E813CF6BD9003C7643 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		963C73E913CF6BD9003C7643 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
@@ -219,7 +219,7 @@
 		963C733013CF1D1C003C7643 = {
 			isa = PBXGroup;
 			children = (
-				963C73CF13CF6783003C7643 /* libpng.xcodeproj */,
+				963C73CF13CF6783003C7643 /* libpng */,
 				963C73C713CF5DD1003C7643 /* Linked Libraries and Frameworks */,
 				963C734313CF2109003C7643 /* include */,
 				963C734113CF20FE003C7643 /* src */,
@@ -512,7 +512,7 @@
 			projectReferences = (
 				{
 					ProductGroup = 963C73D013CF6783003C7643 /* Products */;
-					ProjectRef = 963C73CF13CF6783003C7643 /* libpng.xcodeproj */;
+					ProjectRef = 963C73CF13CF6783003C7643 /* libpng */;
 				},
 			);
 			projectRoot = "";
